@@ -16,7 +16,7 @@ export function Home() {
       }}
       onClick={() => setClicked((clicked) => !clicked)}
     >
-      <Text>Click me</Text>
+      <Text>{clicked ? 'Unclick' : 'Click'} me</Text>
     </View>
   );
 }
